@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6; }
+
+a {
+  color: #14c0c9;
+  text-decoration: none; }
+  a:visited {
+    color: #0f949b; }
+  a:hover {
+    color: #0f949b; }
+  a:active {
+    color: #16d6e0; }
+header{
+    background-color:maroon;
+    height:500px;
+    background-image: url("../images/shige0713073.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position:center top;}
+/*    @media (max-width: 250px) */
+/*      {.header{*/
+    
+/*     flex-direction: column;*/
+/*} }   */
+
+    
+    
+h1{
+    text-align: center;
+    font-size:3rem;
+    font-weight:bold;
+}
+h2{
+     text-align: center;
+     font-size:2rem;
+    font-weight:bold;
+}
+
+.container {
+/*display: inline-flex;*/
+display: flex;
+}
+
+.block
+{border: solid  black;
+background-size:cover ;
+
+}
+
+footer {
+    width: 100%; /* 幅100% */
+    background-color: skyblue; /* 背景を水色に */
+    padding: 20px 0;
+    margin: 20px 0 0;
+}
+
+
+h4{
+    text-align: center;
+}
+#contact ul
+{
+    margin-top: 60px;
+
+    text-align: center;
+}
+#contact ul li
+{
+    font-size: 2.8rem;
+
+    display: inline-block;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-right: 20px;
+
+    text-align: center;
+    vertical-align: top;
+}
+#contact ul li:last-child
+{
+    margin-right: 0;
+}
+
+#contact{
+  position: relative;
+ top:20px;
+ bottom: 30px;
+}
+
+.list{
+   position: relative;
+ /*top:30px;*/
+ bottom: 30px;
+ /*border-radius: 1em;	*/
+}
+.github{
+   border-radius: 3em;	
+   /*background-color: blue;*/
+}
+
+
+/*.skype{*/
+/*border-radius:30px 30px 30px 30px;	*/
+/*}*/
+
+.main{
+  position: relative;
+ top:10px;
+ /*bottom: 10px;*/
+}
+
+.button {
+border: 1px solid #dddddd;
+border-radius: 5px;
+width: 260px;
+margin: 30px auto 30px;
+background-color: #cccccc;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+}
+@media (max-width: 768px) {
+    header {
+        height: 250px;
+    }
+}
