@@ -40,11 +40,18 @@ h1{
     text-align: center;
     font-size:3rem;
     font-weight:bold;
+    margin: 60px auto 5px auto;
+    padding: 5px;
 }
 h2{
      text-align: center;
      font-size:2rem;
     font-weight:bold;
+    border-bottom: dotted 3px white;
+    margin: 7px auto;
+    padding-bottom: 7px;
+    /*border-bottom-color: */
+    
 }
 
 .container {
@@ -54,36 +61,47 @@ justify-content: space-around;
 }
 
 
-.block1{
-  background-color:skyblue;
-   flex: 1;
-    margin: 0px 10px;
+/*.block1{*/
+/*  background-color:skyblue;*/
+/*}*/
+
+/*.block2{*/
+/*  background-color:yellow;*/
+/*}*/
+/*.block3{*/
+/*  background-color:pink;*/
+
+  .block{ 
+ background-color: yellow;
+    
 }
 
-.block2{
-  background-color:yellow;
+.container div{
    flex: 1;
-    margin: 0px 10px;
+   margin: 40px 20px 40px 20px;
+   
+    /*padding:0px 20px 30px 20px;*/
 }
-.block3{
-  background-color:pink;
-   flex: 1;
-    margin: 0px 10px;
+
+.container p{
+    padding: 10px;
 }
 
 
-}
+
 
 footer {
     width: 100%; /* 幅100% */
-    background-color: skyblue; /* 背景を水色に */
-    padding: 20px 0;
-    margin: 20px 0 0;
+    background-color: aqua; /* 背景を水色に */
+    padding: 50px 0;
+    margin: 50px 0 0;
 }
 
 
-h4{
+h3{
     text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 #contact ul
 {
@@ -142,11 +160,12 @@ h4{
 border: 1px solid #dddddd;
 border-radius: 5px;
 width: 260px;
-margin: 30px auto 30px;
-background-color: #cccccc;
+margin: 10px auto 20px auto ;
+background-color:#cccccc;
 color: #fff;
 text-align: center;
 padding: 10px 0;
+display:block;
 }
 @media (max-width: 768px) {
    .container {
